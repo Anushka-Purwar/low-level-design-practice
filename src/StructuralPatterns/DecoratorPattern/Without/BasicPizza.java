@@ -1,0 +1,14 @@
+package StructuralPatterns.DecoratorPattern.Without;
+
+public class BasicPizza implements Pizza{
+
+    @Override
+    public String getDescription() {
+        return "Basic Pizza";
+    }
+
+    @Override
+    public double getCost() {
+        return 100;
+    }
+}
