@@ -1,6 +1,7 @@
 package StructuralPatterns.FacadePattern.With;
 
 public class APIGateway {
+
     PaymentDetails paymentDetails = new PaymentDetails();
     UserDetails userDetails = new UserDetails();
 

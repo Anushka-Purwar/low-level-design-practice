@@ -2,6 +2,7 @@ package StructuralPatterns.FacadePattern.Without;
 
 public class Client {
     public static void main(String[] args) {
+        //multiple microservice calls
         PaymentDetails paymentDetails = new PaymentDetails();
         UserDetails userDetails = new UserDetails();
 
